@@ -1,0 +1,61 @@
+
+*{
+    font-family: "JetBrains Mono", sans-serif;
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3c3a37;
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+}
+header{
+    background-color: #8d54ff;
+}
+h1{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+}
+.balaoFala{
+    display: flex;
+    margin-right: 600px;
+}
+.balaoFala img{
+    width: auto;
+    height: 623px;
+    margin-top: 10px;
+}
+.balaoFala h3{
+    margin-top: 140px;
+    font-size: 20px;
+    margin-left: -495px;
+    width: 600px;
+}
+.info{
+    display: flex;
+    margin-left: 10px;
+}
+.info input{
+    margin-left: -1000px;
+    margin-top: 150px;
+    height: 40px;
+    width: 420px;
+    border: solid 5px black;
+    background-color: #e4e4e4;
+}
+.info button{
+    margin-top: 200px;
+    margin-left: -710px;
+    height: 35px;
+    border: solid 5px black;
+    background-color: #8d54ff;
+    cursor: pointer;
+}
